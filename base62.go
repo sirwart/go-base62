@@ -7,7 +7,7 @@ import (
 )
 
 // characters used for conversion
-const alphabet = "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
+const alphabet = "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz"
 
 // converts number to base62
 func Encode(number int) string {
